@@ -15,6 +15,7 @@ ffmpeg(inputFile)
         '-crf 23',             // Constant Rate Factor (quality/size trade-off)
         '-preset fast',        // Encoding speed
         '-g 1',                // Keyframe interval of 1 (every frame is a keyframe) -> Critical for smooth scrubbing
+        '-t 6',                // Duration: 6 seconds
         '-movflags +faststart',// Optimize for web streaming
         '-an'                  // Remove audio (usually not needed for background video)
     ])
