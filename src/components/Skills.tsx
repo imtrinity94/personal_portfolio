@@ -1,12 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { portfolioData } from "@/data/portfolio";
 
-const skills = [
-  { category: "Frontend", items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Redux"] },
-  { category: "Backend", items: ["Node.js", "Express", "Microservices", "PostgreSQL", "MongoDB", "RabbitMQ"] },
-  { category: "DevOps & Cloud", items: ["Docker", "Kubernetes", "AWS EC2", "AWS S3", "CI/CD", "Nginx"] },
-];
+const skills = portfolioData.skills;
 
 export default function Skills() {
   return (
