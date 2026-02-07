@@ -4,8 +4,8 @@ const path = require('path');
 
 ffmpeg.setFfmpegPath(ffmpegPath);
 
-const inputFile = path.join(__dirname, 'public', 'mayank.mp4');
-const outputFile = path.join(__dirname, 'public', 'mayank-optimized.mp4');
+const inputFile = path.join(__dirname, 'public', 'mayank_2.mp4');
+const outputFile = path.join(__dirname, 'public', 'mayank_2-optimized.mp4');
 
 console.log(`Starting optimization of ${inputFile}...`);
 
