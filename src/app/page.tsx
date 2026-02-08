@@ -6,6 +6,7 @@ import Dock from "@/components/Dock";
 import Contact from "@/components/Contact";
 import Testimonials from "@/components/Testimonials";
 import Blog from "@/components/Blog";
+import Certifications from "@/components/Certifications";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Testimonials />
       <Blog />
       <Skills />
+      <Certifications />
       <Timeline />
       <Dock />
       <Contact />

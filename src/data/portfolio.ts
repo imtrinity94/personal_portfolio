@@ -1,7 +1,7 @@
 export const portfolioData = {
     personal: {
         name: "Mayank Goyal",
-        role: "VCF Automation Architect | vExpert 2022 - 2026",
+        role: "VCF Automation Architect | vExpert 2022 - 2026 | VCF 9 Certified",
         summary:
             "Bringing nearly a decade of hands-on VMware automation experience. Specializing in designing and delivering extensible, enterprise-grade automation solutions.",
         email: "mayankgoyalmax@gmail.com",
@@ -225,9 +225,60 @@ export const portfolioData = {
             initials: "CL",
         },
     ],
+    certifications: [
+        {
+            title: "VMware Certified Professional - Cloud Management and Automation",
+            issuer: "VMware by Broadcom",
+            date: "2025",
+            image: "/VMware Certified Professional - Cloud Management and Automation.png",
+            link: "https://www.credly.com/badges/d70a31ef-bcd4-4d9e-8da2-bfe23469a2c4",
+        },
+        {
+            title: "VMware Certified Professional - VMware vSphere Foundation Administrator",
+            issuer: "VMware by Broadcom",
+            date: "2026",
+            image: "/VMware Certified Professional - VMware vSphere Foundation Administrator.png",
+            link: "https://www.credly.com/badges/d099100b-aa40-4c17-94d8-f1343a2f9c91",
+        },
+        {
+            title: "VMware Certified Professional - VMware Cloud Foundation Administrator",
+            issuer: "VMware by Broadcom",
+            date: "2026",
+            image: "/VMware Certified Professional - VMware Cloud Foundation Administrator.png",
+            link: "https://www.credly.com/earner/earned/badge/088ede1f-2823-4b4e-844e-95e073437526",
+        },
+        {
+            title: "Build Smart on Kubernetes",
+            issuer: "IBM",
+            date: "2024",
+            image: "/Build_Smart_on_Kubernetes_IBM.png",
+            link: "https://www.credly.com/badges/5474c02d-1b19-4859-ba8d-342ef9bb973e",
+        },
+        {
+            title: "Certified Expert - VMware Cloud Foundation - Sales",
+            issuer: "VMware by Broadcom",
+            date: "2025",
+            image: "/Certified Expert - VMware Cloud Foundation - Sales.png",
+            link: "https://www.credly.com/badges/974f175a-0bde-445e-bd9e-2672742d8067",
+        },
+        {
+            title: "Understanding GitOps with ArgoCD",
+            issuer: "Akuity",
+            date: "2026",
+            image: "/Understanding GitOps with ArgoCD.png",
+            link: "https://www.credential.net/6bfa0707-6183-49b9-a6df-9b239092cf89?record_view=true",
+        },
+        {
+            title: "VMware vExpert 2022 - 2026",
+            issuer: "VMware by Broadcom",
+            date: "2022 - Present",
+            image: "/vexpert-badge_Years-5.png",
+            link: "https://vexpert.vmware.com/directory/9789",
+        }
+    ],
     blog: [
         {
-            title: "Revolutionizing vRO Action Documentaiton with vRODoc",
+            title: "Revolutionizing vRO Action Documentation with vRODoc",
             excerpt:
                 "How modern open-source tooling can transform vRO action into JSDoc annotated HTML documentation.",
             category: "DevTools",
