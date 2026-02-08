@@ -76,6 +76,10 @@ export default function Projects() {
                                 {/* Noise */}
                                 <div className="absolute inset-0 opacity-[0.05] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
 
+                                {/* Mirror Glare */}
+                                <div className="absolute inset-0 bg-linear-to-br from-white/30 via-white/5 to-transparent opacity-30 group-hover:opacity-50 transition-opacity duration-500 pointer-events-none mix-blend-overlay" />
+                                <div className="absolute top-0 -left-[120%] w-[120%] h-full bg-linear-to-r from-transparent via-white/20 to-transparent transform -skew-x-25 transition-transform duration-1000 ease-out group-hover:translate-x-[250%] pointer-events-none z-10" />
+
                                 <div className="absolute inset-0 p-8 flex flex-col justify-between z-10">
                                     <div className="flex justify-between items-start">
                                         <span className="inline-block px-3 py-1 rounded-full bg-black/40 border border-white/10 text-xs font-mono text-blue-300 backdrop-blur-md">

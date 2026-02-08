@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <main className="bg-[#121212] min-h-screen text-white">
       <Hero />
-      <Projects />
-      <Testimonials />
-      <Blog />
       <Skills />
+      <Projects />
       <Certifications />
       <Timeline />
+      <Blog />
+      <Testimonials />
       <Dock />
       <Contact />
     </main>
