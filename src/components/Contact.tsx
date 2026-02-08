@@ -27,15 +27,16 @@ export default function Contact() {
       });
 
       if (!response.ok) {
-        throw new Error('Failed to send message');
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to send message');
       }
 
       setIsSuccess(true);
       setFormState({ name: "", email: "", message: "" });
       setTimeout(() => setIsSuccess(false), 3000);
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error sending message:', error);
-      alert('Failed to send message. Please try again later.');
+      alert(`Failed to send message: ${error.message}`);
     } finally {
       setIsSubmitting(false);
     }

@@ -205,16 +205,16 @@ export const portfolioData = {
     testimonials: [
         {
             quote:
-                "Mayank's deep expertise in VMware automation transformed our infrastructure operations. His ability to bridge the gap between Ops and Dev is remarkable.",
-            name: "Former Manager",
-            role: "S&P Global",
+                "Mayank would be an asset to any team. As a team member or a leader, he earns my highest recommendation. Any company would be lucky to have him.",
+            name: "Former Colleague",
+            role: "Atos",
             initials: "FM",
         },
         {
             quote:
-                "A true vExpert. The tools he built like Wdt4vRO saved our team countless hours of development time. Highly recommended for any complex automation project.",
-            name: "Colleague",
-            role: "VMware Community",
+                "Mayank and I worked together. What I like about him is apart from having a great knowledge in VMware and Cloud, he is always aware about latest things happening in the world. He keeps himself always updated which is quite unique and makes him a perfect Techie.",
+            name: "Former Colleague",
+            role: "TELUS International",
             initials: "VC",
         },
         {
@@ -227,31 +227,31 @@ export const portfolioData = {
     ],
     blog: [
         {
-            title: "Revolutionizing vRO Development with Wdt4vRO",
+            title: "Revolutionizing vRO Action Documentaiton with vRODoc",
             excerpt:
-                "How modern open-source tooling can transform legacy orchestration workflows and boost developer productivity by 10x.",
+                "How modern open-source tooling can transform vRO action into JSDoc annotated HTML documentation.",
             category: "DevTools",
             readTime: "5 min read",
             color: "from-blue-500 to-cyan-500",
-            link: "https://cloudblogger.co.in",
+            link: "https://cloudblogger.co.in/2025/04/29/vrodoc",
         },
         {
-            title: "Automating the SDDC: A VCF Architect's Perspective",
+            title: "ES6+ Support in vRO 9",
             excerpt:
-                "Key strategic considerations when designing end-to-end automation for large-scale VMware Cloud Foundation deployments.",
+                "How to take full advantage of ES6+ features in vRO 9 to write modern JavaScript workflows.",
             category: "Architecture",
             readTime: "8 min read",
             color: "from-purple-500 to-pink-500",
-            link: "https://cloudblogger.co.in",
+            link: "https://cloudblogger.co.in/2025/11/23/orchestrator-rhino-engine-8-x-vs-9-x-comprehensive-guide-to-modern-javascript-in-vro/",
         },
         {
-            title: "Simplifying API Consumption in Aria Automation",
+            title: "Simplifying API Consumption in Aria Automation Orchestrator",
             excerpt:
                 "Bridging the gap between complex REST APIs and Orchestrator workflows. Why I built curl2vRO to solve this common pain point.",
             category: "Integration",
             readTime: "6 min read",
             color: "from-orange-500 to-red-500",
-            link: "https://cloudblogger.co.in",
+            link: "https://cloudblogger.co.in/2025/05/05/curl2vro-effortlessly-convert-curl-commands-to-orchestrator-javascript-code/",
         },
     ],
 };
