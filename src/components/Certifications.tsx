@@ -14,7 +14,7 @@ export default function Certifications() {
                     className="mb-16 text-center"
                 >
                     <h2 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-                        My <span className="text-transparent bg-clip-text bg-linear-to-r from-yellow-400 to-orange-500">Credentials</span>
+                        My <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-purple-400">Credentials</span>
                     </h2>
                     <p className="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
                         Industry-recognized certifications validating my expertise in cloud automation and architecture.
@@ -47,7 +47,7 @@ export default function Certifications() {
                             </div>
 
                             <div className="space-y-2">
-                                <h3 className="text-xl font-bold text-white leading-tight group-hover:text-yellow-400 transition-colors">
+                                <h3 className="text-xl font-bold text-white leading-tight group-hover:text-blue-400 transition-colors">
                                     {cert.title}
                                 </h3>
                                 <div className="text-sm font-mono text-gray-400">
