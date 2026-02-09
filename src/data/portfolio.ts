@@ -74,7 +74,7 @@ export const portfolioData = {
             longDescription:
                 "An open-source developer tool designed to accelerate Aria Automation Orchestrator workflow development and API integration. Simplifies complex tasks and improves code reusability.",
             techStack: ["JavaScript", "vRO API"],
-            repo: "https://github.com/mayankgoyal1994/Wdt4vRO",
+            repo: "https://github.com/imtrinity94/Wdt4vRO",
             demo: "https://wdt4vro.vercel.app/",
             color: "from-cyan-600 to-blue-600",
             hoverColor: "group-hover:from-cyan-600 group-hover:to-blue-600",
